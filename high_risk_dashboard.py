@@ -5,7 +5,7 @@ import glob
 import subprocess
 
 # === 資料夾與檔案設定 ===
-BASE_FOLDER = r"C:\Users\王詩偉\Desktop\專題"
+BASE_FOLDER = os.getcwd()
 VIDEO_FOLDER = os.path.join(BASE_FOLDER, "CCTV_Recordings")
 SNAPSHOT_FOLDER = os.path.join(BASE_FOLDER, "YOLO_Snapshots")
 FFMPEG_EXE = os.path.join(BASE_FOLDER, "ffmpeg.exe")
