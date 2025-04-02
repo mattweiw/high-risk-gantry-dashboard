@@ -22,7 +22,7 @@ PROCESSED_FOLDER = os.path.join(BASE_FOLDER, "整理後檔案")
 MERGED_FOLDER = os.path.join(BASE_FOLDER, "合併的")
 MAPPING_FILE_PATH = os.path.join(BASE_FOLDER, "Gantry_Road_Mapping.xlsx")
 CCTV_MAPPING_FILE = os.path.join(BASE_FOLDER, "Gantry_Road_Mapping_Pro.xlsx")
-TRAINING_DATA_PATH = r"C:\\Users\\王詩偉\\Downloads\\Recalculated_Median_Speed__Grouped_by_5_(1).csv"
+TRAINING_DATA_PATH = os.path.join(BASE_FOLDER, "Recalculated_Median_Speed_Grouped_by_5.csv")
 
 os.makedirs(ORIGINAL_FILES_FOLDER, exist_ok=True)
 os.makedirs(PROCESSED_FOLDER, exist_ok=True)
