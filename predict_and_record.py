@@ -16,7 +16,7 @@ from xgboost import XGBClassifier
 from imblearn.over_sampling import SMOTE
 
 # === 資料夾與檔案路徑設定 ===
-BASE_FOLDER = r"C:\\Users\\王詩偉\\Desktop\\專題"
+BASE_FOLDER = os.getcwd()
 ORIGINAL_FILES_FOLDER = os.path.join(BASE_FOLDER, "下載原始檔案")
 PROCESSED_FOLDER = os.path.join(BASE_FOLDER, "整理後檔案")
 MERGED_FOLDER = os.path.join(BASE_FOLDER, "合併的")
